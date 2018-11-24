@@ -1,0 +1,103 @@
+.block{
+  width:150px;
+  height:150px;
+  background: #2eb051;
+  margin:2px auto;
+  position:relative;
+  border-radius:20px;
+  display: inline-block;
+  border: black 0.02px solid;
+}
+
+.block.alpha::after{
+  content:"\03B1";
+  background:#ffa700;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.regi::after{
+  content:"\24C7";
+  background:#5f4694;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.x::after{
+  content:"\00D7";
+  background:#f14d22;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.square::after{
+  content:"\25A3";
+  background:#399698;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.horn::after{
+  content:"\0264";
+  background:#fef53c;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.bilabial::after{
+  content:"\0298";
+  background:#004398;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.omega::after{
+  content:"\0277";
+  background:#55c023;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.block.diamond::after{
+  content:"\25C8";
+  background:white;
+  width:150px;
+  text-align: center;
+  height:150px;
+  position:absolute;
+  border-radius:20px;
+  font-size: 100px;
+}
+.board{
+  width:700px;
+  height:300px;
+  background:#0bb4f4;
+  position:absolute;
+  margin-left:800px; 
+  top:100px;
+  font-family: "Fira Mono";
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
