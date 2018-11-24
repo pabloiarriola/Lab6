@@ -1,0 +1,25 @@
+{
+  "name": "memoria-lab6",
+  "version": "1.0.0",
+  "description": "Laboratorio para la clase de web",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Arriola",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "jshint": "^2.9.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.1",
+    "webpack": "1.13.2"
+  }
+}
